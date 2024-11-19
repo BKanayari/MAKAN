@@ -36,6 +36,11 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		E2F526492CECFCD400F300D3 /* Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,7 @@
 		E2F525D42CEBA34700F300D3 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				E2F526492CECFCD400F300D3 /* Extension */,
 				E2F525D72CEBA38000F300D3 /* Services */,
 				E2F525D62CEBA37A00F300D3 /* Domain */,
 				E2F525D52CEBA36200F300D3 /* Presentation */,
@@ -97,6 +103,7 @@
 				E2F525D52CEBA36200F300D3 /* Presentation */,
 				E2F525D62CEBA37A00F300D3 /* Domain */,
 				E2F525D72CEBA38000F300D3 /* Services */,
+				E2F526492CECFCD400F300D3 /* Extension */,
 			);
 			name = TryMapKit;
 			packageProductDependencies = (
