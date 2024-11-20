@@ -13,3 +13,9 @@ struct HomeView: View {
             .foregroundColor(.blue)
     }
 }
+
+
+#Preview {
+    HomeView()
+}
+
