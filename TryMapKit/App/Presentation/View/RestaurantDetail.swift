@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RestuarantDetail: View {
+struct RestaurantDetail: View {
     var body: some View {
         Text("Welcome to the Restaurant Detail Page")
             .font(.largeTitle)
