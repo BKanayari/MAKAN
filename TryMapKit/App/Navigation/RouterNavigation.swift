@@ -9,7 +9,10 @@ import Foundation
 import SwiftUI
 
 enum Destination {
-    case HomeScreen
+    case login
+    case createAccount
+    case resetPassword
+    case TabbarScreen
     case RestourantDetailScreen
 }
 
@@ -33,8 +36,14 @@ class ViewFactory {
     @ViewBuilder
     static func viewForDestination(_ destination: Destination) -> some View {
         switch destination {
-        case.HomeScreen:
-            HomeView()
+        case .login:
+            Login()
+        case .createAccount:
+            Register()
+        case .resetPassword:
+            ResetPassword()
+        case.TabbarScreen:
+            TabBar()
         case.RestourantDetailScreen:
             RestaurantDetail()
         }
