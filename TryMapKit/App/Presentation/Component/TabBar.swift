@@ -34,6 +34,7 @@ struct TabBar: View {
                     Label("", systemImage: "person.fill")
                 }
         }
+        .navigationBarBackButtonHidden()
         .accentColor(.accentColor)
     }
 }

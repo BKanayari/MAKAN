@@ -12,4 +12,5 @@ extension Color {
     static let thirdColor = Color("ThirdColor")
     static let background = Color("BackgroundColor")
     static let text = Color("TextColor")
+    static let textColorSecondary = Color("TextSecondary")
 }

@@ -17,13 +17,14 @@ struct SecondButton: View {
     var body: some View {
         Button(action: action) {
             Text(title)
-                .font(.headline)
+                .font(.system(size: 14, weight: .semibold))
                 .foregroundColor(foregroundColor)
                 .padding()
                 .controlSize(.large)
                 .background(backgroundColor)
                 .cornerRadius(cornerRadius)
         }
+        .padding(.trailing, 40).padding(.leading, 40)
     }
 }
 
